@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  font-size: 36px;
+  height: 800px;
+  width: 100%;
+  color: white;
+  font-family: serif;
+  background-image: url("top.png");
+  background-size: cover;
+}
+
+p.text {
+  text-align: center;
+  line-height: 800px;
+  font-weight: bold;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 28px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+}
+
+.main-container {
+  height: 300px;
+  width: 80%;
+  margin: auto;
+}
+
+.picture-container {
+  height: 100%;
+  width: 30%;
+  background-color: white;
+  float: left;
+}
+
+.picture-frame {
+  width: 75%;
+  height: 75%;
+  margin-left: 80px;
+}
+
+img.profile-picture {
+  block-size: 230px;
+}
+
+.description-container {
+  height: 100%;
+  width: 70%;
+  background-color: white;
+  float: left;
+}
+
+.skills {
+  height: 100%;
+}
+
+.front-skills {
+  height: 450px;
+  width: 1000px;
+  margin: 10px auto;
+  font-size: 16px;
+}
+
+.backend-skills {
+  height: 450px;
+  width: 1000px;
+  margin: 10px auto;
+  font-size: 16px;
+}
+
+.infra-skills {
+  height: 450px;
+  width: 1000px;
+  margin: 10px auto;
+  font-size: 16px;
+}
+.db-skills {
+  height: 450px;
+  width: 1000px;
+  margin: 10px auto;
+  font-size: 16px;
+  clear: both;
+}
+
+.skill-box {
+  height: 200px;
+  width: 210px;
+  margin: 60px;
+  font-size: 16px;
+  float: left;
+}
+
+.db-skill-box {
+  height: 200px;
+  width: 210px;
+  margin: 60px auto;
+  font-size: 16px;
+}
+
+.sub-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.content {
+  text-decoration: none;
+  font-size: 14px;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+}
+
+.picture {
+  height: 120px;
+  width: 120px;
+  margin: 10px auto;
+}
+
+img.skill-picture {
+  height: 120px;
+  width: 120px;
+}
+
+.explanation {
+  font-size: 14px;
+}
+
+.detail {
+  font-size: 14px;
+  text-align: left;
+}
+
+.portfolio {
+  clear: both;
+  height: 450px;
+}
+
+.portfolio-container {
+  height: 350px;
+  width: 1000px;
+  margin: 10px auto;
+  font-size: 16px;
+  clear: both;
+}
+
+.portfolio-frame {
+  width: 75%;
+  height: 75%;
+}
+
+img.portfolio-picture {
+  height: 200px;
+  width:  250px;
+}
+
+.port-description {
+  font-size: 14px;
+}
+
+p.port-title {
+  font-size: 20px;
+  text-align: center;
+}
+
+.contact {
+  clear: both;
+  width: 100%;
+  height: 400px;
+  background-color: gold;
+}
+
+p.title {
+  text-shadow: 2px 2px 0 #000;
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+}
