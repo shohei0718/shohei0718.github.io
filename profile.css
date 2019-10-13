@@ -3,9 +3,13 @@
   padding: 0;
 }
 
+body {
+  min-width: 1500px;
+}
+
 .top {
   font-size: 36px;
-  height: 800px;
+  height: 732px;
   width: 100%;
   color: white;
   font-family: serif;
@@ -19,18 +23,86 @@ p.text {
   font-weight: bold;
 }
 
-.title {
+nav#navigator {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color: gold;
+  position: absolute;
+}
+
+nav#navigator {
+  position: fixed;
+  bottom: 0;
+}
+
+ul.nav-list {
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px;
+}
+
+li {
+  list-style: none;
+  width: 25%;
+  text-align: center;
+  border-right: solid 1px;
+}
+
+.nav-list li:hover {
+  background-color: white;
+}
+
+a.link {
+  color: black;
+  text-decoration: none;
+}
+
+a.link:hover {
   font-weight: bold;
-  font-size: 28px;
+  text-decoration: underline;
+}
+
+#title-about-me {
+  font-weight: bold;
+  font-size: 42px;
   height: 80px;
   text-align: center;
   line-height: 80px;
 }
 
+#title-skills {
+  font-weight: bold;
+  font-size: 42px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+}
+
+#title-portfolio {
+  font-weight: bold;
+  font-size: 42px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+
+#title-contact {
+  font-weight: bold;
+  font-size: 42px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+}
+
+.profile {
+  margin-top: 50px;
+}
+
 .main-container {
   height: 300px;
   width: 80%;
-  margin: auto;
+  margin: 40px auto;
 }
 
 .picture-container {
@@ -59,34 +131,42 @@ img.profile-picture {
 
 .skills {
   height: 100%;
+  clear: both;
 }
 
 .front-skills {
   height: 450px;
   width: 1000px;
-  margin: 10px auto;
+  margin: 50px auto 20px;
   font-size: 16px;
 }
 
 .backend-skills {
   height: 450px;
   width: 1000px;
-  margin: 10px auto;
+  margin: 50px auto 20px;
   font-size: 16px;
 }
 
 .infra-skills {
   height: 450px;
   width: 1000px;
-  margin: 10px auto;
+  margin: 50px auto 20px;
   font-size: 16px;
 }
 .db-skills {
   height: 450px;
   width: 1000px;
-  margin: 10px auto;
+  margin: 50px auto 20px;
   font-size: 16px;
   clear: both;
+}
+
+.tools {
+  height: 450px;
+  width: 1000px;
+  margin: 10px auto;
+  font-size: 16px;
 }
 
 .skill-box {
@@ -100,14 +180,18 @@ img.profile-picture {
 .db-skill-box {
   height: 200px;
   width: 210px;
-  margin: 60px auto;
+  margin: 40px 140px;
   font-size: 16px;
+  float: left;
 }
 
 .sub-title {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  padding: 5px;
 }
 
 .content {
@@ -141,12 +225,19 @@ img.skill-picture {
 .portfolio {
   clear: both;
   height: 450px;
+  margin-top: 150px;
+}
+
+p.direction {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .portfolio-container {
   height: 350px;
   width: 1000px;
-  margin: 10px auto;
+  margin: 50px auto;
   font-size: 16px;
   clear: both;
 }
@@ -158,7 +249,7 @@ img.skill-picture {
 
 img.portfolio-picture {
   height: 200px;
-  width:  250px;
+  width: 200px;
 }
 
 .port-description {
@@ -170,17 +261,36 @@ p.port-title {
   text-align: center;
 }
 
+a.github-link {
+  display: block;
+  text-align: center;
+}
+
 .contact {
   clear: both;
-  width: 100%;
-  height: 400px;
+  height: 300px;
   background-color: gold;
 }
 
-p.title {
+p#title-contact {
   text-shadow: 2px 2px 0 #000;
   text-align: center;
   font-size: 48px;
   font-weight: bold;
   color: white;
+}
+
+.contact-container {
+  width: 420px;
+  margin: 20px auto 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.mail {
+  margin: 20px 0;
+}
+
+img.portfolio-picture:hover {
+  opacity: 0.5;
 }
