@@ -1,3 +1,5 @@
+/* reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +8,8 @@
 body {
   min-width: 1500px;
 }
+
+/* Top page */
 
 .top {
   font-size: 36px;
@@ -63,31 +67,11 @@ a.link:hover {
   text-decoration: underline;
 }
 
+
+/* Profile  */
+
+
 #title-about-me {
-  font-weight: bold;
-  font-size: 42px;
-  height: 80px;
-  text-align: center;
-  line-height: 80px;
-}
-
-#title-skills {
-  font-weight: bold;
-  font-size: 42px;
-  height: 80px;
-  text-align: center;
-  line-height: 80px;
-}
-
-#title-portfolio {
-  font-weight: bold;
-  font-size: 42px;
-  height: 60px;
-  text-align: center;
-  line-height: 60px;
-}
-
-#title-contact {
   font-weight: bold;
   font-size: 42px;
   height: 80px;
@@ -129,9 +113,21 @@ img.profile-picture {
   float: left;
 }
 
+
+/* Skills */
+
+
 .skills {
   height: 100%;
   clear: both;
+}
+
+#title-skills {
+  font-weight: bold;
+  font-size: 42px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
 }
 
 .front-skills {
@@ -222,10 +218,22 @@ img.skill-picture {
   text-align: left;
 }
 
+
+/* Portfolio */
+
+
 .portfolio {
   clear: both;
   height: 450px;
   margin-top: 150px;
+}
+
+#title-portfolio {
+  font-weight: bold;
+  font-size: 42px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
 }
 
 p.direction {
@@ -266,10 +274,22 @@ a.github-link {
   text-align: center;
 }
 
+
+/* Contact */
+
+
 .contact {
   clear: both;
   height: 300px;
   background-color: gold;
+}
+
+#title-contact {
+  font-weight: bold;
+  font-size: 42px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
 }
 
 p#title-contact {
