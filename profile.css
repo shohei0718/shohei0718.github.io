@@ -70,7 +70,6 @@ a.link:hover {
 
 /* Profile  */
 
-
 #title-about-me {
   font-weight: bold;
   font-size: 42px;
@@ -84,7 +83,7 @@ a.link:hover {
 }
 
 .main-container {
-  height: 300px;
+  height: 350px;
   width: 80%;
   margin: 40px auto;
 }
@@ -108,14 +107,14 @@ img.profile-picture {
 
 .description-container {
   height: 100%;
-  width: 70%;
+  width: 60%;
   background-color: white;
   float: left;
+  font-size: 15px;
 }
 
 
 /* Skills */
-
 
 .skills {
   height: 100%;
@@ -214,13 +213,12 @@ img.skill-picture {
 }
 
 .detail {
-  font-size: 14px;
+  font-size: 15px;
   text-align: left;
 }
 
 
 /* Portfolio */
-
 
 .portfolio {
   clear: both;
@@ -261,7 +259,7 @@ img.portfolio-picture {
 }
 
 .port-description {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 p.port-title {
@@ -276,7 +274,6 @@ a.github-link {
 
 
 /* Contact */
-
 
 .contact {
   clear: both;
